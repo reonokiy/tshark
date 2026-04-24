@@ -1,0 +1,13 @@
+[package]
+name = "tshark-filter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tshark-core = { path = "../tshark-core" }
+thiserror = { workspace = true }
+log = { workspace = true }
+
+[dev-dependencies]
+bytes = { workspace = true }
+chrono = { workspace = true }

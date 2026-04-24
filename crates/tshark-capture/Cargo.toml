@@ -1,0 +1,14 @@
+[package]
+name = "tshark-capture"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tshark-core = { path = "../tshark-core" }
+pcap = "2"
+crossbeam-channel = { workspace = true }
+bytes = { workspace = true }
+chrono = { workspace = true }
+log = { workspace = true }
+thiserror = { workspace = true }
+libc = "0.2"

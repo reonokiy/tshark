@@ -1,0 +1,17 @@
+[package]
+name = "tshark-cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tshark-core = { path = "../tshark-core" }
+tshark-capture = { path = "../tshark-capture" }
+tshark-dissect = { path = "../tshark-dissect" }
+tshark-filter = { path = "../tshark-filter" }
+clap = { version = "4", features = ["derive"] }
+anyhow = { workspace = true }
+serde_json = { workspace = true }
+crossbeam-channel = { workspace = true }
+ctrlc = "3"
+env_logger = { workspace = true }
+colored = "3"

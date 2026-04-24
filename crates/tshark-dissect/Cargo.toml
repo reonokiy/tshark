@@ -1,0 +1,13 @@
+[package]
+name = "tshark-dissect"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tshark-core = { path = "../tshark-core" }
+bytes = { workspace = true }
+log = { workspace = true }
+thiserror = { workspace = true }
+
+[dev-dependencies]
+hex-literal = "0.4"

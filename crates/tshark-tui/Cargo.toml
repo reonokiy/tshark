@@ -1,0 +1,16 @@
+[package]
+name = "tshark-tui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tshark-core = { path = "../tshark-core" }
+tshark-capture = { path = "../tshark-capture" }
+tshark-dissect = { path = "../tshark-dissect" }
+tshark-filter = { path = "../tshark-filter" }
+ratatui = "0.30"
+crossterm = "0.29"
+crossbeam-channel = { workspace = true }
+anyhow = { workspace = true }
+clap = { version = "4", features = ["derive"] }
+unicode-width = "0.2"
